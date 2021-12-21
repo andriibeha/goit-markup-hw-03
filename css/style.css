@@ -42,6 +42,33 @@ body li {
   list-style-type: none;
 }
 
+/*Обнуляю всі відступи стандартні*/
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*Logo*/
 .logo {
   color: var(--title-text-color);
@@ -90,6 +117,49 @@ body li {
   color: var(--accent-color);
 }
 
+.page-header {
+  display: flex;
+  align-items: center;
+
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav .logo {
+  margin-right: 93px;
+}
+
+.site-nav {
+  display: flex;
+
+  margin-right: 331px;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0px;
+}
+
+.auth-nav {
+  display: flex;
+}
+
+.auth-nav .item {
+  margin-right: 50px;
+}
+
+.auth-nav .item:last-child {
+  margin-right: 0px;
+}
+
 /*Hero*/
 .hero {
   text-align: center;
@@ -104,10 +174,14 @@ body li {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  margin-bottom: 30px;
 }
 
 .hero {
   background-color: var(--first-bg-color);
+
+  margin-bottom: 94px;
 }
 
 .hero-container {
@@ -178,6 +252,26 @@ button {
   text-decoration: none;
 }
 
+.description-list {
+  display: flex;
+
+  margin-bottom: 94px;
+}
+
+.description-list .title {
+  margin-bottom: 10px;
+}
+
+.description-list .item {
+  margin-right: 30px;
+
+  max-width: 270px;
+}
+
+.description-list .item:last-child {
+  margin-right: 0px;
+}
+
 /*What We Do*/
 .whatwedo .title,
 .team .team-title {
@@ -186,11 +280,70 @@ button {
   text-align: center;
 }
 
+.whatwedo .title {
+  margin-bottom: 50px;
+}
+
+.whatwedo-list {
+  display: flex;
+
+  margin-bottom: 94px;
+}
+
+.whatwedo-list .item {
+  margin-right: 30px;
+}
+
+.whatwedo-list .item:last-child {
+  margin-right: 0px;
+}
+
 /*Team*/
 .team-list .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title {
+  margin-bottom: 50px;
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item {
+  margin-right: 30px;
+
+  background-color: #fff;
+}
+
+.team-list .item:last-child {
+  margin-right: 0px;
+}
+
+.team-list img {
+  margin-bottom: 30px;
+}
+
+.team-list .title {
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.team-list .text {
+  text-align: center;
 }
 
 /*Footer*/
