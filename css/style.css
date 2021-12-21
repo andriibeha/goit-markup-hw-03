@@ -451,6 +451,10 @@ button {
   border-top: none;
 }
 
+.cards-wraper .title {
+  margin-bottom: 4px;
+}
+
 /*Позбуваюсь зазора зверху*/
 .cards img {
   display: block;
