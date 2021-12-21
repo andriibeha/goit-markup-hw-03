@@ -69,6 +69,11 @@ p {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*Logo*/
 .logo {
   color: var(--title-text-color);
@@ -180,13 +185,11 @@ p {
 
 .hero {
   background-color: var(--first-bg-color);
-
-  margin-bottom: 94px;
 }
 
 .hero-container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 106px;
+  padding-bottom: 106px;
 }
 
 /*Оформлюю кнопку головну*/
@@ -232,6 +235,8 @@ button {
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  cursor: pointer;
 }
 
 /*Title*/
@@ -248,14 +253,16 @@ button {
   text-transform: uppercase;
 }
 
+.description.section {
+  padding-bottom: 0px;
+}
+
 .description-list > li {
   text-decoration: none;
 }
 
 .description-list {
   display: flex;
-
-  margin-bottom: 94px;
 }
 
 .description-list .title {
@@ -286,8 +293,6 @@ button {
 
 .whatwedo-list {
   display: flex;
-
-  margin-bottom: 94px;
 }
 
 .whatwedo-list .item {
@@ -309,11 +314,6 @@ button {
   background-color: var(--secondary-bg-color);
 }
 
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .team-title {
   margin-bottom: 50px;
 }
@@ -326,6 +326,10 @@ button {
   margin-right: 30px;
 
   background-color: #fff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list .item:last-child {
@@ -344,6 +348,8 @@ button {
 
 .team-list .text {
   text-align: center;
+
+  margin-bottom: 30px;
 }
 
 /*Footer*/
@@ -373,6 +379,13 @@ button {
 .foot {
   font-weight: 400;
   font-style: normal;
+
+  margin-top: 20px;
+}
+
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*Портфолио Portfolio Style*/
@@ -380,6 +393,14 @@ button {
 /*Вирубую заголовок*/
 .primary-title {
   display: none;
+}
+
+.footer-address {
+  padding-bottom: 9px;
+}
+
+.foot .link.adres {
+  padding-bottom: 9px;
 }
 
 /*Title*/
@@ -392,4 +413,47 @@ button {
 .cards p {
   font-size: 16px;
   line-height: 1.87;
+}
+
+.categories-button .categories {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+.categories .item {
+  margin-right: 8px;
+}
+
+.categories .item:last-child {
+  margin-right: 0px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards .item {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.cards .item:nth-child(3n + 3) {
+  margin-right: 0px;
+}
+
+.cards .cards-wraper {
+  padding: 20px 24px 20px 24px;
+
+  border: 1px solid #eeeeee;
+  border-top: none;
+}
+
+/*Позбуваюсь зазора зверху*/
+.cards img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
