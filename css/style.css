@@ -393,6 +393,10 @@ button {
 
 /*Портфолио Portfolio Style*/
 
+/*Лінія*/
+main .line {
+  border-bottom: 1px solid #ececec;
+}
 /*Вирубую заголовок*/
 .primary-title {
   display: none;
@@ -421,7 +425,11 @@ button {
   display: flex;
   justify-content: center;
 
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  margin-top: -30px;
 }
 
 .categories .item {
