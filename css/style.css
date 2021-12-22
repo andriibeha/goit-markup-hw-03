@@ -188,8 +188,8 @@ p {
 }
 
 .hero-container {
-  padding-top: 106px;
-  padding-bottom: 106px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /*Оформлюю кнопку головну*/
@@ -340,10 +340,6 @@ button {
   margin-right: 0px;
 }
 
-.team-list img {
-  margin-bottom: 30px;
-}
-
 .team-list .title {
   text-align: center;
 
@@ -352,8 +348,11 @@ button {
 
 .team-list .text {
   text-align: center;
+}
 
-  margin-bottom: 30px;
+.team-item-wraper {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*Footer*/
@@ -387,7 +386,7 @@ button {
   margin-top: 20px;
 }
 
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -399,12 +398,11 @@ button {
   display: none;
 }
 
-.footer-address {
-  padding-bottom: 9px;
-}
-
 .foot .link.adres {
-  padding-bottom: 9px;
+  display: inherit;
+
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 /*Title*/
