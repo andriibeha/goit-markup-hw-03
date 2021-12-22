@@ -126,8 +126,12 @@ p {
   display: flex;
   align-items: center;
 
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.page-header .container {
+  display: flex;
 }
 
 .main-nav {
@@ -394,9 +398,10 @@ button {
 /*Портфолио Portfolio Style*/
 
 /*Лінія*/
-main .line {
+header {
   border-bottom: 1px solid #ececec;
 }
+
 /*Вирубую заголовок*/
 .primary-title {
   display: none;
